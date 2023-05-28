@@ -41,3 +41,4 @@ Concepts Learned from this Application
 - Metadata : Adding and export const metadata object with a title can alter the Page title (SEO)
 - GoogleFonts : Importing google fonts from next with specific weights in a variable and applying the variable as a class name to the children container in the layout.
 - SSC : Cannot use useState and useEffect in server side components. There is no life cycle method in server side components they just load. Add "use client" to turn a component to a client component.
+- Suspense Boundaries provide a much better user Experience as we can define a fallback prior to a component loading.
